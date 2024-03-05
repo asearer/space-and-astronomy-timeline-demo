@@ -11,7 +11,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px; /* Add padding for space around the edges */
-  background-color: red;
+  background-color: var(--background-color);
 }
 
 .container {
