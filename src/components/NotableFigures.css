@@ -1,0 +1,29 @@
+/* NotableFigures.css */
+
+.notable-figures {
+  flex: 1;
+}
+
+.notable-figures h2 {
+  margin-top: 0;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.notable-figures ul {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.notable-figures li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.notable-figures strong {
+  font-weight: bold;
+  color: var(--primary-color);
+}

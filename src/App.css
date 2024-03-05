@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+/* App.css */
+
+:root {
+  --primary-color: #004d99; /* Dark blue */
+  --secondary-color: #ff7f00; /* Orange */
+  --accent-color: #007acc; /* Light blue */
+  --background-color: #f5f5f5; /* Light gray */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px; /* Add padding for space around the edges */
+  background-color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.timeline-container {
+  flex: 1;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.notable-figures-container {
+  flex: 1;
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+h2 {
+  margin-top: 20px;
+  color: var(--primary-color);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.timeline li {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.timeline li:hover {
+  background-color: #f0f0f0;
+}
+
+.notable-figures li {
+  margin-bottom: 10px;
+}
+
+.notable-figures strong {
+  font-weight: bold;
 }
